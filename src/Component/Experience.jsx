@@ -23,9 +23,9 @@ const Experience = () => {
                     </div>
                     <div className='w-full md:w-3/4  lg:w-2/3 md:p-5 lg:p-10 max-w-3xl rounded-3xl shadow-lg'>
                         <h1 className='text-2xl md:text-3xl font-extrabold text-white'>Software Engineer I, Frontend</h1>
-                        <h2 className='text-lg hidden md:block my-3 font-medium text-gray-300'>7EDGE | March 2024 – February 2025</h2>
+                        <h2 className='text-lg hidden md:block my-3 font-medium text-gray-300'>7EDGE | August 2022 – Present</h2>
 
-                        <h2 className='my-2 lg:hidden md:hidden text-lg'>7EDGE | March 2024 – February 2025</h2>
+                        <h2 className='my-2 lg:hidden md:hidden text-lg'>7EDGE | August 2022 – Present</h2>
 
                         {/* for large device  */}
                         <ul className='list-disc hidden lg:block mt-5 md:ml-5 space-y-3  md:pl-5'>
@@ -34,8 +34,8 @@ const Experience = () => {
                                     <FiCheckCircle className="text-[#89b02d]" />
                                 </div>
                                 <span className='flex-grow'>
-                                    Developed scalable and responsive web applications with a cross-device consistency, ensuring cross-device consistency using Tailwind
-                                    CSS and Bootstrap.
+                                Optimized UI performance, reducing page load times by 40% through code splitting, lazy loading, memoization, and minimizing
+                                unnecessary re-renders in React
                                 </span>
                             </li>
                             <li className='flex items-start gap-3 leading-relaxed'>
@@ -43,8 +43,8 @@ const Experience = () => {
                                     <FiCheckCircle className="text-[#89b02d]" />
                                 </div>
                                 <span className='flex-grow'>
-                                    Optimized UI performance, reducing page load times by 40% through code splitting, lazy loading, memoization, and minimizing
-                                    unnecessary re-renders in React.
+                                Developed scalable and responsive web applications with a mobile-first approach, ensuring cross-device consistency using Tailwind
+                                CSS, Material UI, and Bootstrap
 
                                 </span>
                             </li>
@@ -55,7 +55,7 @@ const Experience = () => {
                                     <FiCheckCircle className="text-[#89b02d]" />
                                 </div>
                                 <span className='flex-grow'>
-                                    Implemented Redux for efficient state management, enhancing application performance and scalability.
+                                Implemented Redux for efficient state management, improving application performance, scalability, and maintainability
                                 </span>
                             </li>
                             <li className='flex items-start gap-3 leading-relaxed'>
@@ -63,8 +63,8 @@ const Experience = () => {
                                     <FiCheckCircle className="text-[#89b02d]" />
                                 </div>
                                 <span className='flex-grow'>
-                                    Ensured cross-browser compatibility across Chrome, Firefox, Safari, and Edge using feature detection and CSS fallbacks, improving
-                                    accessibility.
+                                Enhanced cross-browser compatibility across Chrome, Firefox, Safari, and Edge using feature detection, and CSS fallbacks, improving
+                                accessibility.
                                 </span>
                             </li>
                             <li className='flex items-start gap-3 leading-relaxed'>
@@ -72,7 +72,9 @@ const Experience = () => {
                                     <FiCheckCircle className="text-[#89b02d]" />
                                 </div>
                                 <span className='flex-grow'>
-                                    Developed reusable and modular UI components, following best practices to improve code maintainability and reusability
+                                Conducted unit and integration testing using Jest, React Testing Library, and Cypress, improving code reliability and reducing production
+                                bugs by 30%.
+
                                 </span>
                             </li>
                             <li className='flex items-start gap-3 leading-relaxed'>
@@ -88,7 +90,8 @@ const Experience = () => {
                                     <FiCheckCircle className="text-[#89b02d]" />
                                 </div>
                                 <span className='flex-grow'>
-                                    Refactored codebases by adopting React Hooks and functional components, improving maintainability and performance
+                                Led performance optimizations, identifying and resolving bottlenecks using Lighthouse audits, Web Vitals, and lazy-loaded assets to
+                                improve FCP and LCP scores
                                 </span>
                             </li>
                             <li className='flex items-start gap-3 leading-relaxed'>
@@ -96,7 +99,40 @@ const Experience = () => {
                                     <FiCheckCircle className="text-[#89b02d]" />
                                 </div>
                                 <span className='flex-grow'>
-                                    Utilized Git for version control, ensuring clean and organized code management.
+                                Developed reusable, modular UI components by following Atomic Design principles, improving code reusability and maintainability.
+                                </span>
+                            </li>
+                            <li className='flex items-start gap-3 leading-relaxed'>
+                                <div className='w-5 h-5 mt-2 flex-shrink-0'>
+                                    <FiCheckCircle className="text-[#89b02d]" />
+                                </div>
+                                <span className='flex-grow'>
+                                Improved accessibility (A11Y) compliance by ensuring WCAG standards, enhancing usability for screen readers and keyboard navigation.
+                                </span>
+                            </li>
+                            <li className='flex items-start gap-3 leading-relaxed'>
+                                <div className='w-5 h-5 mt-2 flex-shrink-0'>
+                                    <FiCheckCircle className="text-[#89b02d]" />
+                                </div>
+                                <span className='flex-grow'>
+                                Collaborated closely with UI/UX designers, backend developers, and product managers to deliver high-quality, production-ready
+                                applications.
+                                </span>
+                            </li>
+                            <li className='flex items-start gap-3 leading-relaxed'>
+                                <div className='w-5 h-5 mt-2 flex-shrink-0'>
+                                    <FiCheckCircle className="text-[#89b02d]" />
+                                </div>
+                                <span className='flex-grow'>
+                                Refactored legacy codebases, replacing class-based components with React Hooks and functional components for better maintainability
+                                </span>
+                            </li>
+                            <li className='flex items-start gap-3 leading-relaxed'>
+                                <div className='w-5 h-5 mt-2 flex-shrink-0'>
+                                    <FiCheckCircle className="text-[#89b02d]" />
+                                </div>
+                                <span className='flex-grow'>
+                                Mentored junior developers, conducted thorough code reviews, and enforced React best practices
                                 </span>
                             </li>
                         </ul>
@@ -111,8 +147,8 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Developed scalable and responsive web applications with a cross-device consistency, ensuring cross-device consistency using Tailwind
-                            CSS and Bootstrap
+                        Optimized UI performance, reducing page load times by 40% through code splitting, lazy loading, memoization, and minimizing
+                        unnecessary re-renders in React. 
                         </span>
                     </li>
                     <li className='flex items-center gap-3 leading-relaxed'>
@@ -120,8 +156,8 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Optimized UI performance, reducing page load times by 40% through code splitting, lazy loading, memoization, and minimizing
-                            unnecessary re-renders in React.
+                        Developed scalable and responsive web applications with a mobile-first approach, ensuring cross-device consistency using Tailwind
+                        CSS, Material UI, and Bootstrap.
                         </span>
                     </li>
 
@@ -131,7 +167,7 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Implemented Redux for efficient state management, enhancing application performance and scalability
+                        Implemented Redux for efficient state management, improving application performance, scalability, and maintainability
                         </span>
                     </li>
                     <li className='flex items-center gap-3 leading-relaxed'>
@@ -139,8 +175,8 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Ensured cross-browser compatibility across Chrome, Firefox, Safari, and Edge using feature detection and CSS fallbacks, improving
-                            accessibility.
+                        Enhanced cross-browser compatibility across Chrome, Firefox, Safari, and Edge using feature detection, and CSS fallbacks, improving
+                        accessibility
                         </span>
                     </li>
                     <li className='flex items-center gap-3 leading-relaxed'>
@@ -148,7 +184,8 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Developed reusable and modular UI components, following best practices to improve code maintainability and reusability.
+                        Conducted unit and integration testing using Jest, React Testing Library, and Cypress, improving code reliability and reducing production
+                        bugs by 30%.
                         </span>
                     </li>
                     <li className='flex items-center gap-3 leading-relaxed'>
@@ -156,7 +193,8 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Collaborated with UI/UX designers and backend developers to deliver pixel-perfect, high-quality applications
+                        Led performance optimizations, identifying and resolving bottlenecks using Lighthouse audits, Web Vitals, and lazy-loaded assets to
+                        improve FCP and LCP scores
                         </span>
                     </li>
                     <li className='flex items-center gap-3 leading-relaxed'>
@@ -164,7 +202,7 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Refactored codebases by adopting React Hooks and functional components, improving maintainability and performance.
+                        Developed reusable, modular UI components by following Atomic Design principles, improving code reusability and maintainability.
                         </span>
                     </li>
                     <li className='flex items-center gap-3 leading-relaxed'>
@@ -172,7 +210,32 @@ const Experience = () => {
                             <FiCheckCircle className="text-[#89b02d]" />
                         </div>
                         <span className='flex-grow'>
-                            Utilized Git for version control, ensuring clean and organized code management.
+                        Improved accessibility (A11Y) compliance by ensuring WCAG standards, enhancing usability for screen readers and keyboard navigation.
+                        </span>
+                    </li>
+                    <li className='flex items-center gap-3 leading-relaxed'>
+                        <div className='w-5 h-5 flex-shrink-0'>
+                            <FiCheckCircle className="text-[#89b02d]" />
+                        </div>
+                        <span className='flex-grow'>
+                        Collaborated closely with UI/UX designers, backend developers, and product managers to deliver high-quality, production-ready
+                        applications
+                        </span>
+                    </li>
+                    <li className='flex items-center gap-3 leading-relaxed'>
+                        <div className='w-5 h-5 flex-shrink-0'>
+                            <FiCheckCircle className="text-[#89b02d]" />
+                        </div>
+                        <span className='flex-grow'>
+                        Refactored legacy codebases, replacing class-based components with React Hooks and functional components for better maintainability.
+                        </span>
+                    </li>
+                    <li className='flex items-center gap-3 leading-relaxed'>
+                        <div className='w-5 h-5 flex-shrink-0'>
+                            <FiCheckCircle className="text-[#89b02d]" />
+                        </div>
+                        <span className='flex-grow'>
+                        Mentored junior developers, conducted thorough code reviews, and enforced React best practices.
                         </span>
                     </li>
                 </ul>

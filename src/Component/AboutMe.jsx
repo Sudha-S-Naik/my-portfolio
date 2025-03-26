@@ -1,7 +1,7 @@
 import React from 'react';
 // import image from "../assets/IMG-20230526-WA0007.webp"
+import sudha from "../assets/sudha1.jpeg"
 
-import poto from "../assets/new2.jpg"
 
 const AboutMe = () => {
 
@@ -17,7 +17,7 @@ const AboutMe = () => {
             <div className='flex md:p-5  max-h-[700px]  justify-center items-center gap-10 lg:gap-28 flex-col-reverse md:flex-row-reverse  mx-auto mt-20 '>
                 <div data-aos="fade-up" className='text-justify md:text-left md:Jw-1/2 space-y-5 lg:w-[700px] text-xl p-4'>
                     <p className="leading-relaxed text-justify">
-                        Hey there! I'm Avinash, a passionate Frontend Developer with a strong foundation in web development.
+                        Hey there! I'm Sudha, a passionate Frontend Developer with a strong foundation in web development.
                         I thrive on transforming ideas into interactive and engaging web applications.
                         My journey has been driven by a passion for clean code, performance optimization, and seamless user experiences.
                         I enjoy problem-solving, staying updated with the latest web technologies, and continuously refining my skills to build modern, efficient, and accessible applications.
@@ -32,8 +32,8 @@ const AboutMe = () => {
                     >
                         <img
                             className="rounded-full h-full object-cover  w-full"
-                            src={poto}
-                            alt=""
+                            src={sudha}
+                            alt="img"
                         />
                     </div>
                 </div>

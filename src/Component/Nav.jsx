@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import logo from "../assets/logo/logo2.png";
+import logo from "../assets/logo/logo-s.png";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { RiMenu2Line } from "react-icons/ri";
@@ -42,7 +42,7 @@ const Nav = () => {
   <div className="py-4 px-20 w-full mx-auto hidden lg:flex justify-between items-center">
     <div>
       <a href="#home">
-        <img className="w-16 h-16" src={logo} alt="" />
+        <img className="w-24 h-20" src={logo} alt="" />
       </a>
     </div>
 

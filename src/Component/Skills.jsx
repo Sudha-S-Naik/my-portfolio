@@ -8,9 +8,12 @@ import react from "../assets/icons/react.json"
 import nextjs from "../assets/icons/nextjs.webp"
 import github from "../assets/icons/github.png"
 import Boostaap from "../assets/icons/Boostaap.jpeg"
-import java from "../assets/icons/java.png"
+import docker from "../assets/icons/docker.png"
 import Lottie from "lottie-react";
-
+import jest from "../assets/icons/jest.png"
+import Docker1 from "../assets/icons/Docker1.png"
+import jestl from "../assets/icons/jestl.png"
+import cy from "../assets/icons/cy.jpg"
 const Skills = () => {
 
 
@@ -94,9 +97,21 @@ const Skills = () => {
 					</div>
 					<div className="">
 						<div className="w-36 h-36  border-2 border-[#89b02d] ">
-							<img src={java} className="h-full animateSkillImage  p-8 mx-auto" alt="" />
+							<img src={Docker1} className="h-full animateSkillImage  p-8 mx-auto" alt="" />
 						</div>
-						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Java</h1>
+						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Docker</h1>
+					</div>
+					<div className="">
+						<div className="w-36 h-36  border-2 border-[#89b02d] ">
+							<img src={jestl} className="h-full animateSkillImage  p-8 mx-auto" alt="" />
+						</div>
+						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Jest</h1>
+					</div>
+					<div className="">
+						<div className="w-36 h-36  border-2 border-[#89b02d] ">
+							<img src={cy} className="h-full animateSkillImage  p-8 mx-auto" alt="" />
+						</div>
+						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Jest</h1>
 					</div>
 				</div>
 			</div>

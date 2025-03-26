@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaStar } from "react-icons/fa6";
-import pdf from "../assets/DeveloperAvinash10.pdf"
-
+import pdf from "../assets/DeveloperSudha8.pdf"
+import sudha1 from "../assets/sudha1.jpeg"
 import "./banner.css";
-import new2 from "../assets/new1.jpg"
+
 
 const Banner = () => {
   const [isPreparing, setIsPreparing] = useState(false); // Loading state
@@ -15,7 +15,7 @@ const Banner = () => {
     setTimeout(() => {
       const link = document.createElement("a");
       link.href = pdf;
-      link.download = "DeveloperAvinash10.pdf";
+      link.download = "DeveloperSudha8.pdf";
       link.click();
       setIsPreparing(false); // Reset loading state
     }, 1000); // Adjust delay as needed
@@ -26,7 +26,7 @@ const Banner = () => {
       <div className="w-full bg-transparent p-5 h-screen max-h-[700px] flex flex-col-reverse md:flex-row items-center justify-center gap-28 md:gap-20">
         <div className="md:w-1/2 space-y-8">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white">
-            HI, I'M Avinash!
+            HI, I'M Sudha Shankar Naik!
           </h1>
 
           <TypeAnimation
@@ -104,7 +104,7 @@ const Banner = () => {
           >
             <img
               className="rounded-[100%]  object-cover h-full w-full"
-              src={new2}
+              src={sudha1}
               alt=""
             />
           </div>

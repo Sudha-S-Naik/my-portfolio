@@ -66,13 +66,13 @@ const Footer = () => {
 					<div className="flex flex-col">
 						<h1 className=" mt-8  mb-2">Socials Links</h1>
 						<div className=" text-xl md:text-base flex md:flex-row gap-5  items-center">
-							<a target="_blank"
+							{/* <a target="_blank"
 								href="https://www.facebook.com/profile.php?id=100071356753716"
 								className="flex  items-center gap-2"
 							>
 								<FaFacebook className="text-[#89b02d]" />
 								<span className="hidden md:block">Facebook</span>
-							</a>
+							</a> */}
 							<a target="_blank"
 								href="https://www.instagram.com/avinash4_27/"
 								className="flex  items-center gap-2"
@@ -82,14 +82,14 @@ const Footer = () => {
 							</a>
 
 							<a target="_blank"
-								href="https://www.linkedin.com/in/avinash-m-b87b40242/"
+								href="https://www.linkedin.com/in/sudha-naik-90b242189"
 								className="flex items-center gap-2"
 							>
 								<FaLinkedin className="text-[#89b02d]" />
 								<span className="hidden md:block">LinkedIn</span>
 							</a>
 							<a target="_blank"
-								href="https://github.com/Avinasha27/dhoni"
+								href="https://github.com/Sudha-S-Naik"
 								className="flex items-center gap-2"
 							>
 								<FaGithub className="text-[#89b02d]" /> <span className="hidden md:block">Github</span>
@@ -105,7 +105,7 @@ const Footer = () => {
 					<MdEmail className="text-[#89b02d]" size={40} />
 					<div>
 						<h1>Email</h1>
-						<p className="text-base">avinashm0443@gmail.com</p>
+						<p className="text-base">sudhasnaik2000@gmail.com</p>
 					</div>
 				</div>
 
@@ -113,14 +113,14 @@ const Footer = () => {
 					<FaHome className="text-[#89b02d]" size={40} />
 					<div>
 						<h1>Permanent Address</h1> 
-						<p className="text-base"> Mangarshikoppa, Sorab, Karnataka - 577429</p>
+						<p className="text-base">Shirali , Bhatkal , Uttara Kannada , 581354</p>
 					</div>
 				</div>
 				<div className="flex gap-2 my-10 items-center text-2xl">
 					<FaLocationDot className="text-[#89b02d]" size={40} />
 					<div>
 						<h1>Present Address</h1> 
-						<p className="text-base">Mangarshikoppa, Sorab, Karnataka - 577429</p> {/* Changed example data for clarity */}
+						<p className="text-base">Shirali , Bhatkal , Uttara Kannada , 581354</p> {/* Changed example data for clarity */}
 					</div>
 				</div>
 
