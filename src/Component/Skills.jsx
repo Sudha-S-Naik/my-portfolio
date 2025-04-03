@@ -111,7 +111,7 @@ const Skills = () => {
 						<div className="w-36 h-36  border-2 border-[#89b02d] ">
 							<img src={cy} className="h-full animateSkillImage  p-8 mx-auto" alt="" />
 						</div>
-						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Jest</h1>
+						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Cypress</h1>
 					</div>
 				</div>
 			</div>
