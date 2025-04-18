@@ -39,36 +39,37 @@ const Projects = () => {
 		},
 		{
 			title: "Lets Eat",
-			description:"A responsive and user-friendly UX/UI template designed with modern web standards in mind. This template focuses on clean layout, intuitive navigation, and seamless user experience across devices. Technologies Used: HTML5, CSS3, JavaScript, Bootstrap, jQuery, Tailwind CSS. Key Features: Fully responsive design, Clean and accessible UI.",
+			description: "A vibrant and modern restaurant-themed UX/UI template designed for food delivery or dine-in businesses. 'Let's Eat' features a clean layout, engaging visuals, and easy navigation to explore menus or place orders. Built with HTML5, CSS3, JavaScript, Bootstrap this template ensures responsiveness and aesthetic appeal across all devices.  This template emphasizes strong visual hierarchy and a mouth-watering user experience to help restaurants showcase their best dishes.",
 			thumbnailImage: letseat,
 			category: "UI Template",
 		},
 		{
 			title: "Soft UI Dashboard",
-			description:"A responsive and user-friendly UX/UI template designed with modern web standards in mind. This template focuses on clean layout, intuitive navigation, and seamless user experience across devices. Technologies Used: HTML5, CSS3, JavaScript, Tailwind CSS. Key Features: Fully responsive design, Clean and accessible UI.Smooth animations and transitions  Modular and reusable components Optimized for performance and cross-browser compatibility",
-			thumbnailImage: [milestone1, milestone2, milestone3 ,milestone4, milestone5,milestone6, milestone7,milestone8, milestone9], // carousel images
+			description: "A sleek, responsive admin dashboard template featuring soft gradients and smooth visuals. Designed for analytics and admin interfaces, it includes interactive charts, cards, and widget-based layouts. Technologies include HTML5, CSS3, JavaScript, and Tailwind CSS, optimized for performance, modularity, and cross-browser support.  The layout is ideal for developers building SaaS dashboards, CRMs, or admin panels. Its smooth user interactions and scalable component structure make it both developer- and user-friendly.",
+			thumbnailImage: [milestone1, milestone2, milestone3 ,milestone4, milestone5,milestone6, milestone7,milestone8, milestone9],
 			category: "UI Template",
 		},
 		{
 			title: "Food Ninja",
-			description:"A responsive and user-friendly UX/UI template designed with modern web standards in mind. This template focuses on clean layout, intuitive navigation, and seamless user experience across devices. Technologies Used: HTML5, CSS3, JavaScript, Tailwind CSS. Key Features: Fully responsive design, Clean and accessible UI.Smooth animations and transitions  Modular and reusable components Optimized for performance and cross-browser compatibility",
+			description: "Food Ninja is a stylish food ordering UI concept with a playful yet modern design. Perfect for showcasing restaurant offerings, the layout emphasizes food imagery, user-friendly filtering, and mobile-first interaction. Built using HTML, CSS, JavaScript, and Tailwind CSS to ensure a fully responsive and engaging experience.  The template highlights simplicity and speed in browsing and ordering, creating a fast-lane path from food discovery to checkout. Ideal for mobile-first restaurant startups and food tech prototypes.",
 			thumbnailImage: foodninja,
 			category: "UI Template",
 		},
 		{
 			title: "Context Sure",
-			description:"A responsive and user-friendly UX/UI template designed with modern web standards in mind. This template focuses on clean layout, intuitive navigation, and seamless user experience across devices. Technologies Used: HTML5, CSS3, JavaScript, Tailwind CSS. Key Features: Fully responsive design, Clean and accessible UI.Smooth animations and transitions  Modular and reusable components Optimized for performance and cross-browser compatibility",
+			description: "A minimalist UX template designed for SaaS or tech startups. 'Context Sure' provides a clean layout for presenting product features, customer testimonials, and pricing plans. Technologies used include HTML5, CSS3, JavaScript, and Tailwind CSS. It focuses on accessibility, responsiveness, and a polished user journey.  The layout is ideal for onboarding flows and landing pages. It’s designed to build trust and deliver information in a clear, focused, and professional way.",
 			thumbnailImage: contextsure,
 			category: "UI Template",
 		},
 		{
 			title: "Mytyles",
-			description:"A responsive and user-friendly UX/UI template designed with modern web standards in mind. This template focuses on clean layout, intuitive navigation, and seamless user experience across devices. Technologies Used: HTML5, CSS3, JavaScript, Tailwind CSS. Key Features: Fully responsive design, Clean and accessible UI.Smooth animations and transitions  Modular and reusable components Optimized for performance and cross-browser compatibility",
+			description: "An e-commerce UI template tailored for a tile or interior design store. 'Mytyles' highlights product grids, filtering options, and detailed product pages. Created with HTML5, CSS3, JavaScript, and Tailwind CSS, it’s built to provide a seamless shopping experience with a clean, modern aesthetic.  With a focus on product visibility and ease of navigation, it's ideal for showcasing large inventories. The layout supports both visual storytelling and strong call-to-actions for conversions.",
 			thumbnailImage: mytyles,
 			category: "UI Template",
 		},
 	];
-
+	
+	
 	const [activeButton, setActiveButton] = useState("all Product");
 
 	const filteredData = Data.filter((item) => {
