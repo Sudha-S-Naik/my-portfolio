@@ -77,12 +77,12 @@ const Skills = () => {
 						</div>
 						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Redux</h1>
 					</div>
-					<div className="">
+					{/* <div className="">
 						<div className="w-36 h-36  border-2 border-[#89b02d] ">
 							<img src={firebase} className="h-full animateSkillImage  p-8 mx-auto" alt="" />
 						</div>
 						<h1 className="text-[#1a1a1a] font-bold p-2 text-center w-36 bg-[#89b02d]">Firebase</h1>
-					</div>
+					</div> */}
 					<div className="">
 						<div className="w-36 h-36  border-2 border-[#89b02d] ">
 							<img src={github} className="h-full animateSkillImage  p-8 mx-auto" alt="" />
